@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="tobikanayo.css">
+    
+</head>
+<body>
+    <form class="housecalc calculator_keys">
+    <table>
+       <p class="close"><th colspan="4">Tobi Kanayo calc.</th> </p>
+        <tr>
+            <td colspan="4"> <input type="text" name="display" id="display" disabled>
+
+            </td>
+
+        </tr>
+            <tr>
+                <td><input type="button" name="ON/OFF" value="ON/OFF"></td>
+               <td><input type="button" name="BS" value="BS"></td>
+                <td><input type="button" name="C" value="C" data-action="clear"></td>
+                ><td><input type="button" name="+" value="+" class="key--operator" data-action="add"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="seven" value="7"></td>
+               <td><input type="button" name="eight" value="8"></td>
+                <td><input type="button" name="nine" value="9"></td>
+                ><td><input type="button" name="minus" value="-" class="key--operator" data-action="subtract"></td>
+            </tr>
+            <tr> 
+               <td><input type="button" name="four" value="4"></td>
+               <td><input type="button" name="five" value="5"></td>
+                <td><input type="button" name="six" value="6"></td>
+                ><td><input type="button" name="divide" value="÷" key--operator" data-action="divide"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="one" value="1"></td>
+               <td><input type="button" name="two" value="2"></td>
+                <td><input type="button" name="three" value="3"></td>
+                <td><input type="button" name="multiply" value="X" class="key--operator" data-action="multiply"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="zero" value="0"></td>
+               <td><input type="button" name="dot" value="." data-action="decimal"></td>
+            
+               <td colspan="2"><input type="button" name="equal" value="=" class="key--equal" data-action="calculate"> </td>
+
+            
+
+
+
+            </tr>
+      </table>  
+    </form>
+   
+
+
+<script src="/tobi-kanayo.js"></script>
+</body>
+</html>

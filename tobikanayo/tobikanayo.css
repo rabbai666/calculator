@@ -1,0 +1,19 @@
+.housecalc {
+    border: 5px;
+    border-color: red;
+}
+    table, th, td {
+    border: 7px solid grey;
+    padding: 10px;
+    text-align:justify;
+  }
+  .close {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+  }
+  
+  .close:hover {background: #bbb;}
